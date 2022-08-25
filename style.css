@@ -79,7 +79,7 @@ nav ul li a:hover{
   padding-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 #image1{
@@ -151,14 +151,49 @@ nav ul li a:hover{
   letter-spacing: 2px;
 }
 
+video{
+  margin-top: -5px;
+}
+
 /* Footer */
 
 footer{
   position: relative;
-  background: rgb(0, 0, 0, 0.5);
+  
+  text-align: center;
+}
+
+footer section{
+  background: rgba(37, 37, 37, 0.897);
   padding: 20px;
   color: #fff;
-  text-align: center;
-  margin-top: -60px;
+}
+
+footer  #title{
+  color: #ccc;
+  font-size: 1.5em;
+}
+footer  #title span{
+  color: #ad0a1d;
+  font-weight: bold;
 
 }
+ footer  #text{
+  letter-spacing: 0;
+  margin: 20px;
+ }
+
+ footer  #icons a{
+  padding: 0 10px;
+ }
+
+ footer  #icons a img{
+  background-color: #fff;
+  border-radius: 8.5px;
+ }
+
+ footer #copy{
+  padding: 20px;
+  background: #000;
+  color: #ccc;
+ }
